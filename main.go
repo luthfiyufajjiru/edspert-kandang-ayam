@@ -38,6 +38,8 @@ func main() {
 
 	// Start the Fiber HTTP server
 	app := fiber.New()
+
+	app.Static("", "./public")
 	v1 := app.Group("/api/v1")
 
 	v1.Get("/ammonia/:mode", handler.HttpAmmonia)
