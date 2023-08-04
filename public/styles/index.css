@@ -1,0 +1,11 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gauge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
