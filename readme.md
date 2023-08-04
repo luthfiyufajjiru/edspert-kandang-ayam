@@ -20,3 +20,5 @@ Tuntutan Keberlanjutan
 Kompetisi di Industri Peternakan
 
 Dengan latar belakang ini, peternakan ayam berbasis IoT menjadi solusi yang menarik untuk memperbaiki efisiensi dan keberlanjutan dalam industri peternakan. Integrasi teknologi IoT memungkinkan peternak untuk mengoptimalkan pengelolaan peternakan dan memberikan kontribusi pada ketahanan pangan di masa depan.
+
+https://wokwi.com/projects/371880962232095745 by Muhammad Jumi’at Mokhtar
