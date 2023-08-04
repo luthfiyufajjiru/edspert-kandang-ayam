@@ -40,10 +40,10 @@ func main() {
 	app := fiber.New()
 	v1 := app.Group("/api/v1")
 
-	v1.Get("/ammonia", handler.HttpAmmonia)
-	v1.Get("/mass", handler.HttpMass)
-	v1.Get("/temperature", handler.HttpTemp)
-	v1.Get("/humidity", handler.HttpHumidity)
+	v1.Get("/ammonia/:mode", handler.HttpAmmonia)
+	v1.Get("/mass/:mode", handler.HttpMass)
+	v1.Get("/temperature/:mode", handler.HttpTemp)
+	v1.Get("/humidity/:mode", handler.HttpHumidity)
 
 	go func() {
 		if err := app.Listen(":8080"); err != nil {
